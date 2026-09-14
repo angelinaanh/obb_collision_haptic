@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="420" viewBox="0 0 780 420" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' role="img" aria-label="Hand vs object query time">
+<rect width="780" height="420" fill="#fcfcfb"/>
+<text x="72" y="30" font-size="17" font-weight="600" fill="#0b0b0b">Hand vs object query time</text>
+<text x="72" y="52" font-size="13" fill="#52514e">All intersecting triangle pairs, hand of 3,132 triangles; reference = uniform grid + exact tests, in microseconds</text>
+<rect x="72" y="66" width="14" height="4" rx="2" fill="#2a78d6"/>
+<text x="92" y="72" font-size="12" fill="#52514e">OBB tree (SAH)</text>
+<rect x="195.2" y="66" width="14" height="4" rx="2" fill="#eb6834"/>
+<text x="215.2" y="72" font-size="12" fill="#52514e">OBB tree (median)</text>
+<rect x="338.79999999999995" y="66" width="14" height="4" rx="2" fill="#1baf7a"/>
+<text x="358.79999999999995" y="72" font-size="12" fill="#52514e">Reference (grid)</text>
+<line x1="72" x2="590" y1="364.0" y2="364.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="64" y="368.0" font-size="11" fill="#898781" text-anchor="end">10</text>
+<line x1="72" x2="590" y1="273.3" y2="273.3" stroke="#e1e0d9" stroke-width="1"/>
+<text x="64" y="277.3" font-size="11" fill="#898781" text-anchor="end">100</text>
+<line x1="72" x2="590" y1="182.7" y2="182.7" stroke="#e1e0d9" stroke-width="1"/>
+<text x="64" y="186.7" font-size="11" fill="#898781" text-anchor="end">1,000</text>
+<line x1="72" x2="590" y1="92.0" y2="92.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="64" y="96.0" font-size="11" fill="#898781" text-anchor="end">10,000</text>
+<text transform="translate(18,228.0) rotate(-90)" font-size="12" fill="#898781" text-anchor="middle">Microseconds (log scale)</text>
+<line x1="72" x2="590" y1="364" y2="364" stroke="#c3c2b7" stroke-width="1"/>
+<text x="72.0" y="384" font-size="11" fill="#898781" text-anchor="middle">1K</text>
+<text x="244.7" y="384" font-size="11" fill="#898781" text-anchor="middle">10K</text>
+<text x="417.3" y="384" font-size="11" fill="#898781" text-anchor="middle">100K</text>
+<text x="590.0" y="384" font-size="11" fill="#898781" text-anchor="middle">1M</text>
+<text x="331.0" y="408" font-size="12" fill="#898781" text-anchor="middle">Number of object triangles (log scale)</text>
+<path d="M72.0,278.2 L244.7,254.7 L417.3,223.5 L590.0,178.0" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="72.0" cy="278.2" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<circle cx="244.7" cy="254.7" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<circle cx="417.3" cy="223.5" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<circle cx="590.0" cy="178.0" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<path d="M72.0,243.9 L244.7,220.5 L417.3,190.1 L590.0,150.1" fill="none" stroke="#eb6834" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="72.0" cy="243.9" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<circle cx="244.7" cy="220.5" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<circle cx="417.3" cy="190.1" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<circle cx="590.0" cy="150.1" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<path d="M72.0,262.8 L244.7,241.6 L417.3,187.7 L590.0,103.9" fill="none" stroke="#1baf7a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="72.0" cy="262.8" r="4" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
+<circle cx="244.7" cy="241.6" r="4" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
+<circle cx="417.3" cy="187.7" r="4" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
+<circle cx="590.0" cy="103.9" r="4" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
+<text x="600" y="107.9" font-size="12" fill="#52514e">7,394 - Reference (grid)</text>
+<text x="600" y="154.1" font-size="12" fill="#52514e">2,284 - OBB tree (median)</text>
+<text x="600" y="182.0" font-size="12" fill="#52514e">1,126 - OBB tree (SAH)</text>
+</svg>
